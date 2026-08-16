@@ -1,0 +1,11 @@
+.idea/
+log.txt
+store
+/output/
+/.idea
+/.vscode
+/.venv
+/**/__pycache__
+.ruff_cache
+output/dist/
+*.log

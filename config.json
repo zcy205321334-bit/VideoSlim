@@ -1,0 +1,21 @@
+{
+    "configs": [
+        {
+            "name": "default",
+            "x264": {
+                "encoder": "libx264",
+                "rate_control": "crf",
+                "crf": 23.5,
+                "bitrate": 2000,
+                "maxrate": 4000,
+                "bufsize": 8000,
+                "audio_bitrate": 0,
+                "preset": "slow",
+                "nvenc_preset": "p5",
+                "I": 600,
+                "r": 4,
+                "b": 3
+            }
+        }
+    ]
+}
