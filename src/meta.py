@@ -5,10 +5,10 @@ VideoSlim 应用程序常量定义
 """
 
 # 应用程序版本号
-VERSION = "v2.0.0"
+VERSION = "v2.1.0"
 
 # 检查更新的 GitHub API URL
-CHECK_UPDATE_URL = "https://api.github.com/repos/DongGuoZheng/VideoSlim/releases"
+CHECK_UPDATE_URL = "https://api.github.com/repos/zcy205321334-bit/VideoSlim/releases"
 
 # 支持的视频文件扩展名列表
 SUPPORTED_VIDEO_EXTENSIONS = [".mp4", ".mkv", ".mov", ".avi"]
