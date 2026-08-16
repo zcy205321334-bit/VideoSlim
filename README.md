@@ -1,6 +1,30 @@
 
 <h1 align="center" style="font-size:50px;font-weight:bold">VideoSlim</h1>
 <p align="center">简洁易用的 Windows 视频压缩工具（增强版）</p>
+<p align="center"><em>Lightweight Windows video compression tool (Enhanced)</em></p>
+
+---
+
+<p align="center"><strong>English</strong></p>
+
+> **VideoSlim Enhanced** is a lightweight Windows video compression tool built on FFmpeg.
+> It adds hardware acceleration and precise bitrate control on top of the original VideoSlim:
+> auto-detects NVIDIA/AMD/Intel GPUs (NVENC/AMF/QSV) to compress a 30-minute video in about
+> 20 seconds (vs ~3.5 minutes with CPU encoding); offers three rate-control modes — quality-first
+> CRF, fixed-size ABR, and capped CRF — so output size is predictable; lets you pick the encoder
+> (x264/x265/NVENC) with adaptive audio bitrate. Portable single executable, open source under
+> BSD-2-Clause.
+
+---
+
+<p align="center"><strong>中文</strong></p>
+
+> **VideoSlim 增强版**是一款基于 FFmpeg 的 Windows 视频压缩工具。在原版基础上新增硬件加速
+> 与码率自定义能力：自动检测 NVIDIA/AMD/Intel 显卡（NVENC/AMF/QSV），30 分钟视频约 20 秒压完
+> （CPU 软编需 3 分半）；支持质量优先、固定体积、质量+体积上限三种码率模式，输出大小可精确预估；
+> 编码器可选 x264/x265/NVENC，音频码率自适应。绿色便携单文件，BSD-2-Clause 开源。
+
+---
 
 <p align="center">
   <img src="./img/interface.jpg" width="520" style="display:block;margin:auto;" />
@@ -9,10 +33,6 @@
 </p>
 
 ---
-
-> 本仓库为 [DongGuoZheng/VideoSlim](https://github.com/DongGuoZheng/VideoSlim) 的**增强分支（fork）**，
-> 在原版基础上新增硬件加速、码率自定义、编码器可选等能力。
-> 原版版权归 inite（BSD-2-Clause），增强部分版权归 zcy205321334-bit，许可证不变。
 
 ## ✨ 相对原版的新特性
 
